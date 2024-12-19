@@ -1,0 +1,4 @@
+# Este projeto utiliza apenas bibliotecas padrão do Python
+# Não são necessárias dependências externas
+
+# Python >= 3.6 é requerido devido ao uso de f-strings

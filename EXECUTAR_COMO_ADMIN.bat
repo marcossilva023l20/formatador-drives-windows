@@ -1,0 +1,3 @@
+@echo off
+echo Iniciando Gerenciador de Disco como Administrador...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process powershell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0executar_gerenciador.ps1\"' -Verb RunAs"
